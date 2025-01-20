@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+      <h1 id="title">Unpopular Opions</h1>
+      <p id="description"> Where do you stand on Unpopular Opinions of the culinary sort?
+  </head>
+  <body>
+    <h2>Let's Do This</h2>
+    <p>Not as much fun as picking the cutest puppy of the week that's probably/definitely a scam link on Facebook, but definitely worth three minutes of your coffee break.</p> 
+    <form id="survey-form">
+      <label 
+      id="name-label"
+      name="name">
+      <b>
+      Whose opinion does this belong to?
+      </b>
+      </label>
+      <input 
+      required 
+    id="name" 
+      type="text" placeholder="ex. Idiana Jones">
+      </input>
+      <br></br>
+      <label 
+      id="email-label"
+      name="email">
+      <b>
+        All good surveys require emails
+      </b>
+      </label>
+      <input
+      required
+      id="email"
+      type="email"
+      placeholder="ex. notstacysmom@butstillhot.com">
+      <br></br>
+      <br></br>
+      </input> 
+      <label id="number-label" 
+      name="number">
+      <b>
+      Starting off strong...Is ranch the new ketchup? 
+      </b>
+      
+      </label>
+      <h5>On a scale of 1-10:<h5>  
+       <p>1 being <q>Oh, boy! Ranch is my favorite soup!</q>
+      <br></br>
+      10 being <q>I wouln't feed ranch to the meanest cockroach in my kitchen</q>
+      </p>
+      <input
+      type="number" 
+      id="number"
+      min="1"
+      max="10"
+      placeholder="1"
+      >
+      </input>
+      </label>
+      <br></br>
+       <br></br>
+
+      <label for="dropdown"><b>The Worst Flavor to Disgrace Icecream</b>
+      </label>
+      <select name="dropdown" id="dropdown">
+         <option value="mint-chocolate-chip">Mint Chocolate Chip</option>    
+         <option value="cotton-candy">Cotton Candy</option>
+         <option value="rum-raisin">Rum Raisin</option>
+         <option value="coffee">Coffee</option>
+         <option value="Butter Pecan">Butter Pecan</option>
+         </select>
+      <br></br>
+      <br></br>
+      <label for="pineapple"><b>Pineapple. Does This Tropical Fruit Belong On Pizza?</b></label>
+      <br></br>
+      <input 
+        name="pineapple"
+        id="pineapple"
+        type="radio"
+        value="yes">Hell To The Pizza-Munchin Yes</input>
+        <br></br>
+      <input
+      name="pineapple"
+      id="pineapple"
+      type="radio"
+      value="no">Ew, David!</input>
+    <br></br>
+    <br></br>
+    <label for="offenses"><b>You can only keep one.  The rest will be shot straight into the sun.</b></label>
+    <br></br>
+    <input 
+    type="checkbox"
+    name="raisins" 
+    value="1"
+    id="offenses"></input>
+    <label for="offenses" name="raisins">Raisins</label>
+    <input 
+    type="checkbox"
+    name="anchovies" 
+     value="2"
+    id="offenses"></input>
+    <label for="offenses" name="anchovies">Anchovies</label>
+    <input 
+    type="checkbox"
+    name="cilantro" 
+     value="3"
+    id="offenses"></input>
+    <label for="offenses" name="cilantro">Cilantro</label>
+    <input 
+    type="checkbox"
+    name="blue-cheese" 
+     value="4"
+    id="offenses"></input>
+    <label for="offenses" name="blue-chees">Blue Cheese</label>
+    <input 
+    type="checkbox"
+    name="mushrooms" 
+     value="5"
+    id="offenses"></input>
+    <label for="offenses" name="mushrooms">Mushrooms</label>
+    <input 
+    type="checkbox"
+    name="black-licorice" 
+     value="6"
+    id="offenses"></input>
+    <label for="offenses" name="black-licorice">Black Licorice</label>
+    <br></br>
+    <br></br>
+    <label for="combinations"><b>None are as iconic as Sonny and Cher, but one pairing must stay. Others join Pennywise in the sewer.</b></label>
+    <br></br>
+    <input 
+    type="checkbox"
+    name="peanut-butter-pickle" 
+     value="1"
+    id="combinations"></input>
+    <label for="combinations" name="peanut-butter-pickle">Peanut Butter and Pickle Sandwiches</label>
+    <input 
+    type="checkbox"
+    name="ketchup-eggs" 
+     value="2"
+    id="combinations"></input>
+    <label for="combinations" name="ketchup-eggs">Ketchup and Eggs</label>
+    <input 
+    type="checkbox"
+    name="chicken-waffles" 
+     value="3"
+    id="combinations"></input>
+    <label for="combinations" name="chicken-waffles">Chicken and Waffles</label>
+    <input 
+    type="checkbox"
+    name="chocolate-bacon" 
+     value="4"
+    id="combinations"></input>
+    <label for="combinations" name="chocolate-bacon">Chocolate and Bacon</label>
+    <br></br>
+    <br></br>
+    <label for="hurt">Who Hurt You?</label>
+    <p> Or more specifically, what food haunts you? What food do you want to dish on in the worst way possible?</p>
+    <textarea type="text" value="hurt" maxlength="500"></textarea>
+     <input id="submit" type="submit" for="submit" value="hurt">Submit</input>
+    </form>
+  </body>
+</html>
